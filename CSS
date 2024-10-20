@@ -78,6 +78,26 @@ body:not(.has-alert-aules) .responsiveheadergva {
 .primary-navigation .navigation .nav-link {
 	height: 40px;
 }
+/*Reducir tamaño de títulos*/
+h1, .h1 {
+    font-size: 2rem;
+}
+h2, .h2 {
+    font-size: 1.5rem;
+}
+h3, .h3 {
+    font-size: 1.25rem;
+}
+/*Reducir tamaño icono cabecera*/
+.icon-size-6 .icon {
+    height: 24px !important;
+    width: 24px !important;
+    font-size: 24px !important;
+}
+.activityiconcontainer {
+    width: 32px;
+    height: 32px;
+}
 /*Las secciones ocupan el 100% de la anchura de la página*/
 @media all {
 	#page.drawers .main-inner {
