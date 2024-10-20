@@ -17,20 +17,13 @@ body.has-secondary-navigation #page.drawers {
 	position: static;
 }
 .responsiveheadergva .logos .logo {
-	max-width: 100px;
-}
-.responsiveheadergva .enlaces {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	font-size: 15px;
-	justify-content: center;
+	max-width: 80px;
 }
 .responsiveheadergva .enlaces .titulo {
-	font-size: 12px;
+	display: none;
 }
-.responsiveheadergva .enlaces .cont-search-idiomas {
-	display: block;
+.responsiveheadergva .enlaces .simplesearchform {
+	display: none;
 }
 .responsiveheadergva .enlaces .idiomas {
 	display: inline-flex;
@@ -45,10 +38,27 @@ body.has-secondary-navigation #page.drawers {
 	justify-content: center;
 	align-items: center;
 }
+@media (max-width: 768px) {
+    .responsiveheadergva {
+        display: flex;
+        flex-direction: unset;
+        align-items: unset;
+    }
+    .cont-search-idiomas {
+        display: flex !important;
+        flex-direction: row-reverse;
+    }
+    .responsiveheadergva .enlaces .cont-search-idiomas .idiomas {
+        font-size: 15px;
+    }
+    .responsiveheadergva .toggle-menu {
+        display: none;
+    }
+}
 body:not(.has-alert-aules) .responsiveheadergva {
 	top: 0;
-	max-height: 82px;
-	min-height: 82px;
+	max-height: 40px;
+	min-height: 40px;
 }
 .navbar-menu-aules.fixed-top {
 	height: 40px;
@@ -75,11 +85,17 @@ body:not(.has-alert-aules) .responsiveheadergva {
 	}
 }
 /*Recoloca los bloques laterales más arriba para adaptarse a la nueva altura de la barra de navegación superior.*/
+.drawerheader {
+    height: 35px;
+}
 @media (min-width: 992px) {
 	body.has-secondary-navigation .drawer-left,
 	body.has-secondary-navigation .drawer-right {
-		top: 163px;
+		top: 120px;
 	}
+    body:not(.has-alert-aules) .drawer.drawer-left.show .drawercontent, body:not(.has-alert-aules) .drawer.drawer-right.show .drawercontent {
+        height: calc(100% - 155px);
+    }
 }
 /*Las ventanas de areas de texto, editores de texto y explorador de archivos ocupan el 100% de la anchura de la página*/
 .tox-tinymce,
@@ -99,8 +115,6 @@ textarea,
 		flex: 0 0 15%;
 		max-width: 15%;
 	}
-}
-@media (min-width: 768px) {
 	.col-md-9 {
 		flex: 0 0 85%;
 		max-width: 85%;
