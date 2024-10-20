@@ -15,7 +15,15 @@ Modificaciones que se han implementado:
 - Las ventanas de areas de texto, editores de texto y explorador de archivos ocupan el 100% del ancho disponible.
 - Los enlaces se destacan en color para hacerlos visibles.
 
-[!WARNING]
+## Advertencia
 Mis conocimientos de CSS están absolutamente desactualizados y las modificaciones descritas se han hecho por el método de prueba-error. Cualquier responsabilidad por el uso de estas modificaciones será del usuario que las aplique. 
 
 ## Instalación
+1. Instala en Chrome la extensión [User JavaScript and CSS](https://chromewebstore.google.com/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld)
+2. Activa el *Modo Desarrollador* para las extensiones de Chrome. En Chrome ve a *Opciones > Extensiones > Gestionar Extensiones*, en la esquina superior derecha encontrarás el botón para activar el *Modo Desarrollador*.
+3. Accede a tu aula virtual en Aules y activa la extensión *User JavaScript and CSS* en el menú de extensiones de Chrome.
+4. En el desplegable pulsa el botón New rule. Se abrirá la página de la extensión.
+5. Copia el contenido del archivo CSS y pégalo en la columna derecha de la extensión, donde dice *Start typing SCSS or CSS here".
+6. 
+7. Pulsa el botón *Save*.
+8. 
