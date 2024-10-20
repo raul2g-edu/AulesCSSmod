@@ -1,3 +1,5 @@
+/*REGLAS CSS para URL --> https://aules.edu.gva.es/*   */
+
 /*Barra de navegación superior: reducir altura, se mueve con el resto de la página (static) */
 body:not(.has-alert-aules) #page.drawers {
 	margin-top: 0px;
@@ -104,8 +106,8 @@ textarea,
 		max-width: 85%;
 	}
 }
-/*Enlaces con color*/
-/**/
+/*Enlaces con color.*/
+/*Si solo usas un sabor de Aules, descomenta tu color aquí.*/
 a:not([class])  {
 		/*Color para FP Semipresencial*/
     /*color: #AE0046;*/
@@ -113,3 +115,4 @@ a:not([class])  {
     /*color: #006444;*/
     /*text-decoration: underline;*/
 }
+/*Si utilizas más de un sabor de Aules tendrás que definir una regla para la URL de cada uno, copiar el css de arriba y descomentar el color correspondiente al sabor. Por ejemplo, para Aules semipresencial se creará una regla para la url https://aules.edu.gva.es/semipresencial/*, y para Aules fp se creará una regla para la url https://aules.edu.gva.es/fp/*   */
