@@ -143,7 +143,8 @@ textarea,
 /*Enlaces con color.*/
 /*Si solo usas un sabor de Aules, descomenta tu color aquí.*/
 a:not([class])  {
-		/*Color para FP Semipresencial*/
+	color: #0000EE;
+	/*Color para FP Semipresencial*/
     /*color: #AE0046;*/
     /*Color para FP*/
     /*color: #006444;*/
