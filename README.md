@@ -14,6 +14,9 @@ Modificaciones que se han implementado:
 - Las ventanas de areas de texto, editores de texto y explorador de archivos ocupan el 100% del ancho disponible.
 - Los enlaces se destacan en color para hacerlos visibles.
 
+
+![Captura_AulesCSSmod](https://github.com/user-attachments/assets/00c93848-27c1-4e46-8fbe-90e4af2686a0)
+
 ## Descargo de responsabilidad
 > [!CAUTION]
 > Mis conocimientos de CSS están absolutamente desactualizados y las modificaciones descritas se han hecho por el método de prueba-error. Cualquier responsabilidad por el uso de estas modificaciones será del usuario que las aplique.
