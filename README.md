@@ -5,7 +5,6 @@ En su última actualización (septiembre 2024), Aules ha modificado su aspecto c
 
 Modificaciones que se han implementado:
 
-- Desbloquear la cabecera. Ahora se mueve con el resto de la página.
 - Reducir la algura de la cabecera.
 - Eliminar la caja de busqueda (no sirve para nada).
 - Mover iconos de redes sociales al pie de página.
