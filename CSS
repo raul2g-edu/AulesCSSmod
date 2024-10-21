@@ -1,21 +1,6 @@
 /*REGLAS CSS para URL --> https://aules.edu.gva.es/*   */
 
-/*Barra de navegación superior: reducir altura, se mueve con el resto de la página (static) */
-body:not(.has-alert-aules) #page.drawers {
-	margin-top: 0px;
-}
-body.has-secondary-navigation #page.drawers {
-	margin-top: 0px;
-}
-.responsiveheadergva {
-	position: static;
-}
-.navbar-menu-aules {
-	position: static;
-}
-.secondary-navigation-aules {
-	position: static;
-}
+/*Barra de navegación superior: reducir altura y quitar elementos molestos*/
 .responsiveheadergva .logos .logo {
 	max-width: 80px;
 }
@@ -39,21 +24,21 @@ body.has-secondary-navigation #page.drawers {
 	align-items: center;
 }
 @media (max-width: 768px) {
-    .responsiveheadergva {
-        display: flex;
-        flex-direction: unset;
-        align-items: unset;
-    }
-    .cont-search-idiomas {
-        display: flex !important;
-        flex-direction: row-reverse;
-    }
-    .responsiveheadergva .enlaces .cont-search-idiomas .idiomas {
-        font-size: 15px;
-    }
-    .responsiveheadergva .toggle-menu {
-        display: none;
-    }
+	.responsiveheadergva {
+		display: flex;
+		flex-direction: unset;
+		align-items: unset;
+	}
+	.cont-search-idiomas {
+		display: flex !important;
+		flex-direction: row-reverse;
+	}
+	.responsiveheadergva .enlaces .cont-search-idiomas .idiomas {
+		font-size: 15px;
+	}
+	.responsiveheadergva .toggle-menu {
+		display: none;
+	}
 }
 body:not(.has-alert-aules) .responsiveheadergva {
 	top: 0;
@@ -78,45 +63,69 @@ body:not(.has-alert-aules) .responsiveheadergva {
 .primary-navigation .navigation .nav-link {
 	height: 40px;
 }
+body:not(.has-alert-aules) .navbar-menu-aules {
+	top: 40px;
+}
+body:not(.has-alert-aules) .secondary-navigation-aules {
+	top: 80px;
+}
+body:not(.has-alert-aules) #page.drawers {
+	margin-top: 50px;
+}
+body.has-secondary-navigation #page.drawers {
+	margin-top: 95px;
+}
+.breadcrumb {
+	margin-bottom: 0px;
+}
+
 /*Reducir tamaño de títulos*/
-h1, .h1 {
-    font-size: 2rem;
+h1,
+.h1 {
+	font-size: 2rem;
 }
-h2, .h2 {
-    font-size: 1.5rem;
+h2,
+.h2 {
+	font-size: 1.5rem;
 }
-h3, .h3 {
-    font-size: 1.25rem;
+h3,
+.h3 {
+	font-size: 1.25rem;
 }
+
 /*Reducir tamaño icono cabecera*/
 .icon-size-6 .icon {
-    height: 24px !important;
-    width: 24px !important;
-    font-size: 24px !important;
+	height: 24px !important;
+	width: 24px !important;
+	font-size: 24px !important;
 }
 .activityiconcontainer {
-    width: 32px;
-    height: 32px;
+	width: 32px;
+	height: 32px;
 }
+
 /*Las secciones ocupan el 100% de la anchura de la página*/
 @media all {
 	#page.drawers .main-inner {
 		width: 100%;
 	}
 }
+
 /*Recoloca los bloques laterales más arriba para adaptarse a la nueva altura de la barra de navegación superior.*/
 .drawerheader {
-    height: 35px;
+	height: 35px;
 }
 @media (min-width: 992px) {
 	body.has-secondary-navigation .drawer-left,
 	body.has-secondary-navigation .drawer-right {
 		top: 120px;
 	}
-    body:not(.has-alert-aules) .drawer.drawer-left.show .drawercontent, body:not(.has-alert-aules) .drawer.drawer-right.show .drawercontent {
-        height: calc(100% - 155px);
-    }
+	body:not(.has-alert-aules) .drawer.drawer-left.show .drawercontent,
+	body:not(.has-alert-aules) .drawer.drawer-right.show .drawercontent {
+		height: calc(100% - 155px);
+	}
 }
+
 /*Las ventanas de areas de texto, editores de texto y explorador de archivos ocupan el 100% de la anchura de la página*/
 .tox-tinymce,
 textarea[cols],
@@ -129,6 +138,7 @@ textarea,
 .mceEditor {
 	max-width: 100% !important;
 }
+
 /*En los Dialogos, más espacio para el editor de texto y el explorador de archivos.*/
 @media (min-width: 768px) {
 	.col-md-3 {
@@ -140,14 +150,16 @@ textarea,
 		max-width: 85%;
 	}
 }
+
 /*Enlaces con color.*/
 /*Si solo usas un sabor de Aules, descomenta tu color aquí.*/
-a:not([class])  {
-	color: #0000EE;
+a:not([class]) {
+	/*Color azul estandar para enlaces*/
+	color: #0000ee;
 	/*Color para FP Semipresencial*/
-    /*color: #AE0046;*/
-    /*Color para FP*/
-    /*color: #006444;*/
-    /*text-decoration: underline;*/
+	/*color: #AE0046 !important;*/
+	/*Color para FP*/
+	/*color: #006444 !important;*/
+	/*text-decoration: underline;*/
 }
 /*Si utilizas más de un sabor de Aules tendrás que definir una regla para la URL de cada uno, copiar el css de arriba y descomentar el color correspondiente al sabor. Por ejemplo, para Aules semipresencial se creará una regla para la url https://aules.edu.gva.es/semipresencial/*, y para Aules fp se creará una regla para la url https://aules.edu.gva.es/fp/*   */
