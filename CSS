@@ -138,6 +138,9 @@ textarea,
 .mceEditor {
 	max-width: 100% !important;
 }
+.editor_atto_wrap, .mceEditor {
+	display: block;
+}
 
 /*En los Dialogos, más espacio para el editor de texto y el explorador de archivos.*/
 @media (min-width: 768px) {
