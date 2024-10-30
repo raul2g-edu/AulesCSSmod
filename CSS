@@ -104,10 +104,10 @@ h3,
 	height: 32px;
 }
 
-/*Las secciones ocupan el 100% de la anchura de la página*/
+/*Las secciones ocupan el 95% de la anchura de la página*/
 @media all {
 	#page.drawers .main-inner {
-		width: 100%;
+		width: 95%;
 	}
 }
 
@@ -126,7 +126,7 @@ h3,
 	}
 }
 
-/*Las ventanas de areas de texto, editores de texto y explorador de archivos ocupan el 100% de la anchura de la página*/
+/*Las ventanas de areas de texto, editores de texto y explorador de archivos ocupan el 100% del espacio disponible.*/
 .tox-tinymce,
 textarea[cols],
 textarea,
