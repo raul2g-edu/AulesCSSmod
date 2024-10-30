@@ -10,8 +10,8 @@ Modificaciones que se han implementado:
 - Mover iconos de redes sociales al pie de página.
 - Recolocar los bloques laterales.
 - Reducir tamaño de los iconos y las fuentes de títulos en las actividades y recursos.
-- Los bloques de secciones ocupan el 100% del ancho disponible.
-- Las ventanas de areas de texto, editores de texto y explorador de archivos ocupan el 100% del ancho disponible.
+- Los bloques de secciones ocupan el 95% del ancho disponible.
+- Las ventanas de areas de texto, editores de texto y explorador de archivos ocupan el 95% del ancho disponible.
 - Los enlaces se destacan en color para hacerlos visibles.
 
 
