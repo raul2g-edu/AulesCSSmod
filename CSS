@@ -79,6 +79,11 @@ body.has-secondary-navigation #page.drawers {
 	margin-bottom: 0px;
 }
 
+/*Desplegar menús por encima de las barras laterales*/
+.drawer {
+    z-index: 900;
+}
+
 /*Reducir tamaño de títulos*/
 h1,
 .h1 {
