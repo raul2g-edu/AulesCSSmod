@@ -1,49 +1,18 @@
 /*REGLAS CSS para URL --> https://aules.edu.gva.es/*   */
 
 /*Barra de navegación superior: reducir altura y quitar elementos molestos*/
-.responsiveheadergva .logos .logo {
-	max-width: 80px;
+.responsiveheadergva {
+		display: none;
 }
-.responsiveheadergva .enlaces .titulo {
-	display: none;
-}
-.responsiveheadergva .enlaces .simplesearchform {
-	display: none;
-}
-.responsiveheadergva .enlaces .idiomas {
-	display: inline-flex;
-	align-items: center;
-	flex-direction: row;
-}
-.responsiveheadergva .enlaces .social {
-	display: none;
+@media (max-width: 768px) {
+	.responsiveheadergva {
+		display: none;
+	}
 }
 .social-mbl-footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-@media (max-width: 768px) {
-	.responsiveheadergva {
-		display: flex;
-		flex-direction: unset;
-		align-items: unset;
-	}
-	.cont-search-idiomas {
-		display: flex !important;
-		flex-direction: row-reverse;
-	}
-	.responsiveheadergva .enlaces .cont-search-idiomas .idiomas {
-		font-size: 15px;
-	}
-	.responsiveheadergva .toggle-menu {
-		display: none;
-	}
-}
-body:not(.has-alert-aules) .responsiveheadergva {
-	top: 0;
-	max-height: 40px;
-	min-height: 40px;
 }
 .navbar-menu-aules.fixed-top {
 	height: 40px;
@@ -64,16 +33,16 @@ body:not(.has-alert-aules) .responsiveheadergva {
 	height: 40px;
 }
 body:not(.has-alert-aules) .navbar-menu-aules {
-	top: 40px;
+	top: 0px;
 }
 body:not(.has-alert-aules) .secondary-navigation-aules {
-	top: 80px;
+	top: 40px;
 }
 body:not(.has-alert-aules) #page.drawers {
 	margin-top: 50px;
 }
 body.has-secondary-navigation #page.drawers {
-	margin-top: 95px;
+	margin-top: 50px;
 }
 .breadcrumb {
 	margin-bottom: 0px;
@@ -82,6 +51,7 @@ body.has-secondary-navigation #page.drawers {
 /*Desplegar menús por encima de las barras laterales*/
 .drawer {
     z-index: 900;
+    top: 80px;
 }
 
 /*Reducir tamaño de títulos*/
@@ -123,11 +93,11 @@ h3,
 @media (min-width: 992px) {
 	body.has-secondary-navigation .drawer-left,
 	body.has-secondary-navigation .drawer-right {
-		top: 120px;
+		top: 80px;
 	}
 	body:not(.has-alert-aules) .drawer.drawer-left.show .drawercontent,
 	body:not(.has-alert-aules) .drawer.drawer-right.show .drawercontent {
-		height: calc(100% - 155px);
+		height: calc(100% - 115px);
 	}
 }
 
