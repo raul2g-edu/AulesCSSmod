@@ -6,8 +6,8 @@ En su última actualización (septiembre 2024), Aules ha modificado su aspecto c
 Modificaciones que se han implementado:
 
 - Reducir la algura de la cabecera.
-- Eliminar la caja de busqueda (no sirve para nada).
 - Mover iconos de redes sociales al pie de página.
+- Eliminar la barra superior de la cabecera (Los idiomas se pueden seleccionar en el desplegable de usuario y la caja de búsqueda es poco útil).
 - Recolocar los bloques laterales.
 - Reducir tamaño de los iconos y las fuentes de títulos en las actividades y recursos.
 - Los bloques de secciones ocupan el 95% del ancho disponible.
@@ -16,6 +16,7 @@ Modificaciones que se han implementado:
 
 
 ![Captura_AulesCSSmod](https://github.com/user-attachments/assets/00c93848-27c1-4e46-8fbe-90e4af2686a0)
+Nota: La captura no está actualizada con los últimos cambios.
 
 ## Descargo de responsabilidad
 > [!CAUTION]
