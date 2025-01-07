@@ -14,9 +14,10 @@ Modificaciones que se han implementado:
 - Las ventanas de areas de texto, editores de texto y explorador de archivos ocupan el 100% del ancho disponible.
 - Los enlaces se destacan en color para hacerlos visibles.
 
+Capturas de antes y después de las modificaciones:
 
-![Captura_AulesCSSmod](https://github.com/user-attachments/assets/00c93848-27c1-4e46-8fbe-90e4af2686a0)
-Nota: La captura no está actualizada con los últimos cambios.
+<img src="https://github.com/user-attachments/assets/4351e7e6-bd30-40b9-9a56-d9f268d5a5ea" alt="Antes" width="40%"/>
+<img src="https://github.com/user-attachments/assets/f046c8a4-aa81-4f12-803d-122fea383ff5" alt="Después" width="40%"/>
 
 ## Descargo de responsabilidad
 > [!CAUTION]
@@ -34,7 +35,7 @@ Nota: La captura no está actualizada con los últimos cambios.
 ## Desactivar las modificaciones y desinstalar
 Si quieres volver a la versión original de Aules, accede a tu aula virtual y pulsa el icono de la extensión *User JavaScript and CSS* en el menú de extensiones de Chrome. Se desplegará un menú donde podrás desactivar las reglas que hayas definido. Más tarde podrás volver a activar las modificaciones en el mismo sitio.
 
-Si quieres desinstalar definitivamente las modificaciones, puedes eliminar la extensión desde *Gestionar extensiónes* de Chrome. También es posible eliminar una regla individual la extensión sin desinstalarla.
+Si quieres desinstalar definitivamente las modificaciones, puedes eliminar la extensión desde *Gestionar extensiónes* de Chrome. También es posible eliminar una regla individual en la extensión sin desinstalarla.
 
 ## Cambiar el color de los enlaces en Aules
 Por defecto, en Aules **no** se destacan los enlaces de ninguna forma, lo cual dificulta la usabilidad y genera barreras de accesibilidad.
